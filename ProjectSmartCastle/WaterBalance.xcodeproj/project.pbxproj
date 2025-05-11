@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC7908D429E21CFB00F223E2 /* WaterBalanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908D329E21CFB00F223E2 /* WaterBalanceApp.swift */; };
+		AC7908D629E21CFB00F223E2 /* WaterLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908D529E21CFB00F223E2 /* WaterLogic.swift */; };
+		AC7908D829E21CFC00F223E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7908D729E21CFC00F223E2 /* Assets.xcassets */; };
+		AC7908DB29E21CFC00F223E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC7908DA29E21CFC00F223E2 /* Preview Assets.xcassets */; };
+		AC7908E629E2C47700F223E2 /* Page1.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908E529E2C47700F223E2 /* Page1.swift */; };
+		AC7908E829E2C48600F223E2 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908E729E2C48600F223E2 /* CustomButton.swift */; };
+		AC7908EA29E2C6F300F223E2 /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908E929E2C6F300F223E2 /* Frame.swift */; };
+		AC7908EC29E2CA5C00F223E2 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908EB29E2CA5C00F223E2 /* Text.swift */; };
+		AC7908EE29E2D29200F223E2 /* ClickChexBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908ED29E2D29200F223E2 /* ClickChexBox.swift */; };
+		AC7908F029E2D79700F223E2 /* Page2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908EF29E2D79700F223E2 /* Page2.swift */; };
+		AC7908F229E2D9B900F223E2 /* ChexBoxPage2.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908F129E2D9B900F223E2 /* ChexBoxPage2.swift */; };
+		AC7908F429E2DB6B00F223E2 /* Page3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908F329E2DB6B00F223E2 /* Page3.swift */; };
+		AC7908F629E2DE9300F223E2 /* TextFieldPage3.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908F529E2DE9300F223E2 /* TextFieldPage3.swift */; };
+		AC7908F829E2E14B00F223E2 /* Page4.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908F729E2E14B00F223E2 /* Page4.swift */; };
+		AC7908FA29E2E16700F223E2 /* GradientFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7908F929E2E16700F223E2 /* GradientFrame.swift */; };
+		ACFC416B29E30AE300DFE169 /* ListPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC416A29E30AE300DFE169 /* ListPage.swift */; };
+		ACFC416D29E327E400DFE169 /* Page5.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC416C29E327E400DFE169 /* Page5.swift */; };
+		ACFC416F29E329D300DFE169 /* Page6.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC416E29E329D300DFE169 /* Page6.swift */; };
+		ACFC417129E3311900DFE169 /* WaterBalanceMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFC417029E3311900DFE169 /* WaterBalanceMain.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AC7908D029E21CFB00F223E2 /* WaterBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC7908D329E21CFB00F223E2 /* WaterBalanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceApp.swift; sourceTree = "<group>"; };
+		AC7908D529E21CFB00F223E2 /* WaterLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterLogic.swift; sourceTree = "<group>"; };
+		AC7908D729E21CFC00F223E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC7908DA29E21CFC00F223E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AC7908E529E2C47700F223E2 /* Page1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page1.swift; sourceTree = "<group>"; };
+		AC7908E729E2C48600F223E2 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AC7908E929E2C6F300F223E2 /* Frame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frame.swift; sourceTree = "<group>"; };
+		AC7908EB29E2CA5C00F223E2 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		AC7908ED29E2D29200F223E2 /* ClickChexBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickChexBox.swift; sourceTree = "<group>"; };
+		AC7908EF29E2D79700F223E2 /* Page2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page2.swift; sourceTree = "<group>"; };
+		AC7908F129E2D9B900F223E2 /* ChexBoxPage2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChexBoxPage2.swift; sourceTree = "<group>"; };
+		AC7908F329E2DB6B00F223E2 /* Page3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page3.swift; sourceTree = "<group>"; };
+		AC7908F529E2DE9300F223E2 /* TextFieldPage3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldPage3.swift; sourceTree = "<group>"; };
+		AC7908F729E2E14B00F223E2 /* Page4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page4.swift; sourceTree = "<group>"; };
+		AC7908F929E2E16700F223E2 /* GradientFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientFrame.swift; sourceTree = "<group>"; };
+		ACFC416A29E30AE300DFE169 /* ListPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPage.swift; sourceTree = "<group>"; };
+		ACFC416C29E327E400DFE169 /* Page5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page5.swift; sourceTree = "<group>"; };
+		ACFC416E29E329D300DFE169 /* Page6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page6.swift; sourceTree = "<group>"; };
+		ACFC417029E3311900DFE169 /* WaterBalanceMain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterBalanceMain.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC7908CD29E21CFB00F223E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC7908C729E21CFB00F223E2 = {
+			isa = PBXGroup;
+			children = (
+				AC7908D229E21CFB00F223E2 /* WaterBalance */,
+				AC7908D129E21CFB00F223E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC7908D129E21CFB00F223E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC7908D029E21CFB00F223E2 /* WaterBalance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC7908D229E21CFB00F223E2 /* WaterBalance */ = {
+			isa = PBXGroup;
+			children = (
+				AC7908E429E2C44100F223E2 /* Content */,
+				AC7908D329E21CFB00F223E2 /* WaterBalanceApp.swift */,
+				AC7908E529E2C47700F223E2 /* Page1.swift */,
+				AC7908EF29E2D79700F223E2 /* Page2.swift */,
+				AC7908F329E2DB6B00F223E2 /* Page3.swift */,
+				AC7908F729E2E14B00F223E2 /* Page4.swift */,
+				ACFC416C29E327E400DFE169 /* Page5.swift */,
+				ACFC416E29E329D300DFE169 /* Page6.swift */,
+				ACFC417029E3311900DFE169 /* WaterBalanceMain.swift */,
+				AC7908D729E21CFC00F223E2 /* Assets.xcassets */,
+				AC7908D929E21CFC00F223E2 /* Preview Content */,
+			);
+			path = WaterBalance;
+			sourceTree = "<group>";
+		};
+		AC7908D929E21CFC00F223E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC7908DA29E21CFC00F223E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AC7908E429E2C44100F223E2 /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				AC7908E729E2C48600F223E2 /* CustomButton.swift */,
+				AC7908E929E2C6F300F223E2 /* Frame.swift */,
+				AC7908EB29E2CA5C00F223E2 /* Text.swift */,
+				AC7908ED29E2D29200F223E2 /* ClickChexBox.swift */,
+				AC7908F129E2D9B900F223E2 /* ChexBoxPage2.swift */,
+				AC7908F529E2DE9300F223E2 /* TextFieldPage3.swift */,
+				AC7908F929E2E16700F223E2 /* GradientFrame.swift */,
+				ACFC416A29E30AE300DFE169 /* ListPage.swift */,
+				AC7908D529E21CFB00F223E2 /* WaterLogic.swift */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC7908CF29E21CFB00F223E2 /* WaterBalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC7908DE29E21CFC00F223E2 /* Build configuration list for PBXNativeTarget "WaterBalance" */;
+			buildPhases = (
+				AC7908CC29E21CFB00F223E2 /* Sources */,
+				AC7908CD29E21CFB00F223E2 /* Frameworks */,
+				AC7908CE29E21CFB00F223E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBalance;
+			productName = WaterBalance;
+			productReference = AC7908D029E21CFB00F223E2 /* WaterBalance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC7908C829E21CFB00F223E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AC7908CF29E21CFB00F223E2 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = AC7908CB29E21CFB00F223E2 /* Build configuration list for PBXProject "WaterBalance" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC7908C729E21CFB00F223E2;
+			productRefGroup = AC7908D129E21CFB00F223E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC7908CF29E21CFB00F223E2 /* WaterBalance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC7908CE29E21CFB00F223E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7908DB29E21CFC00F223E2 /* Preview Assets.xcassets in Resources */,
+				AC7908D829E21CFC00F223E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC7908CC29E21CFB00F223E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC7908F429E2DB6B00F223E2 /* Page3.swift in Sources */,
+				ACFC417129E3311900DFE169 /* WaterBalanceMain.swift in Sources */,
+				ACFC416D29E327E400DFE169 /* Page5.swift in Sources */,
+				AC7908F229E2D9B900F223E2 /* ChexBoxPage2.swift in Sources */,
+				AC7908E829E2C48600F223E2 /* CustomButton.swift in Sources */,
+				AC7908E629E2C47700F223E2 /* Page1.swift in Sources */,
+				ACFC416B29E30AE300DFE169 /* ListPage.swift in Sources */,
+				AC7908D629E21CFB00F223E2 /* WaterLogic.swift in Sources */,
+				AC7908D429E21CFB00F223E2 /* WaterBalanceApp.swift in Sources */,
+				AC7908EC29E2CA5C00F223E2 /* Text.swift in Sources */,
+				ACFC416F29E329D300DFE169 /* Page6.swift in Sources */,
+				AC7908F029E2D79700F223E2 /* Page2.swift in Sources */,
+				AC7908EE29E2D29200F223E2 /* ClickChexBox.swift in Sources */,
+				AC7908FA29E2E16700F223E2 /* GradientFrame.swift in Sources */,
+				AC7908EA29E2C6F300F223E2 /* Frame.swift in Sources */,
+				AC7908F629E2DE9300F223E2 /* TextFieldPage3.swift in Sources */,
+				AC7908F829E2E14B00F223E2 /* Page4.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AC7908DC29E21CFC00F223E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AC7908DD29E21CFC00F223E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC7908DF29E21CFC00F223E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC7908E029E21CFC00F223E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WaterBalance/Preview Content\"";
+				DEVELOPMENT_TEAM = BWTU9BTUCR;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NessunoT1m.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC7908CB29E21CFB00F223E2 /* Build configuration list for PBXProject "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7908DC29E21CFC00F223E2 /* Debug */,
+				AC7908DD29E21CFC00F223E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC7908DE29E21CFC00F223E2 /* Build configuration list for PBXNativeTarget "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC7908DF29E21CFC00F223E2 /* Debug */,
+				AC7908E029E21CFC00F223E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC7908C829E21CFB00F223E2 /* Project object */;
+}
